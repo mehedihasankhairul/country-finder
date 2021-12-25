@@ -1,0 +1,171 @@
+.searchBox {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inputBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inputBox input {
+  width: 450px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  outline: none;
+  margin: 5px 0;
+}
+
+.searchBox button {
+  width: 150px;
+  height: 48px;
+  border-radius: 25px;
+  color: #fff;
+  background: #00a8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+.searchBox button:hover {
+  background: green;
+}
+.searchBox button:focus {
+  background: #4e4e4e;
+}
+
+.infoArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.infoArea img {
+  margin: 5px 0;
+  width: 350px;
+  border: 1px solid #ccc;
+}
+
+.weatherSection button {
+  width: 100%;
+  border-radius: 20px;
+  color: #fff;
+  background: green;
+  font-size: 1.5rem;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  margin: 15px 0;
+  padding: 0.5rem 0.5rem;
+
+}
+
+.weatherSection img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+}
+
+.weatherSection span {
+  display: flex;
+  font-size: 1.2rem;
+  margin: 5px 0;
+  flex-direction: column;
+}
+
+.temp {
+  font-weight: bold;
+}
+/* media screen for mobile device */
+@media screen and (max-width: 768px) {
+  .searchBox {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .inputBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .inputBox input {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    outline: none;
+    margin: 5px 0;
+  }
+
+  .searchBox button {
+    width: 150px;
+    height: 48px;
+    border-radius: 25px;
+    color: #fff;
+    background: #00a8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin: 5px 0;
+  }
+
+  .searchBox button:hover {
+    background: green;
+  }
+  .searchBox button:focus {
+    background: #4e4e4e;
+  }
+
+  .infoArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .infoArea img {
+    margin: 5px 0;
+    width: 250px;
+    border: 1px solid #ccc;
+  }
+
+  .weatherSection button {
+    width: 100%;
+    border-radius: 20px;
+    color: #fff;
+    background: green;
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin: 15px 0;
+    padding: 0.5rem 0.5rem;
+  }
+
+  .weatherSection img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+  }
+}
